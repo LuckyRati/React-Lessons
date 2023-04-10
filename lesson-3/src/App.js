@@ -27,7 +27,7 @@ function App() {
     <div className="App">
       <ul>
         {users.map((user, index) => (
-          <li key={index}>{user.name}</li>
+          <li style={{listStyle:'none'}} key={index}>{user.name}</li>
         ))}
       </ul>
 
